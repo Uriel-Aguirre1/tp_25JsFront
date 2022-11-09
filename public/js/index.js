@@ -1,3 +1,4 @@
+window.onload = function() {
 const qs = (element) => document.querySelector(element);
 const qsa = (element) => document.querySelectorAll(element);
 const $ = (element) => document.getElementById(element);
@@ -27,3 +28,5 @@ if (respuesta) {
         parrafo.classList.add('destacadoPar')
     }
  });
+}
+

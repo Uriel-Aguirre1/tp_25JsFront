@@ -1,3 +1,4 @@
+window.onload = function() {
 const qs = (element) => document.querySelector(element);
 const qsa = (element) => document.querySelectorAll(element);
 const $ = (element) => document.getElementById(element);
@@ -16,3 +17,4 @@ titulo.style.backgroundColor = "teal";
 titulo.style.color = "##E51B3E";
 
 titulo.innerText += 'LISTADO DE PELÍCULAS';
+}
